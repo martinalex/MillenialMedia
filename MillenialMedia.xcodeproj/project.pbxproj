@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A38C81B915F8FF00001CADEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38C81B815F8FF00001CADEC /* UIKit.framework */; };
+		A38C81BB15F8FF00001CADEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38C81BA15F8FF00001CADEC /* Foundation.framework */; };
+		A38C81BD15F8FF00001CADEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38C81BC15F8FF00001CADEC /* CoreGraphics.framework */; };
+		A38C81C315F8FF00001CADEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A38C81C115F8FF00001CADEC /* InfoPlist.strings */; };
+		A38C81C515F8FF00001CADEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A38C81C415F8FF00001CADEC /* main.m */; };
+		A38C81C915F8FF00001CADEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A38C81C815F8FF00001CADEC /* AppDelegate.m */; };
+		A38C81CC15F8FF00001CADEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38C81CB15F8FF00001CADEC /* ViewController.m */; };
+		A38C81CF15F8FF00001CADEC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38C81CD15F8FF00001CADEC /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A38C81B415F8FF00001CADEC /* MillenialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MillenialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38C81B815F8FF00001CADEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A38C81BA15F8FF00001CADEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A38C81BC15F8FF00001CADEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A38C81C015F8FF00001CADEC /* MillenialMedia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MillenialMedia-Info.plist"; sourceTree = "<group>"; };
+		A38C81C215F8FF00001CADEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A38C81C415F8FF00001CADEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A38C81C615F8FF00001CADEC /* MillenialMedia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MillenialMedia-Prefix.pch"; sourceTree = "<group>"; };
+		A38C81C715F8FF00001CADEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A38C81C815F8FF00001CADEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A38C81CA15F8FF00001CADEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A38C81CB15F8FF00001CADEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A38C81CE15F8FF00001CADEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38C81B115F8FF00001CADEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38C81B915F8FF00001CADEC /* UIKit.framework in Frameworks */,
+				A38C81BB15F8FF00001CADEC /* Foundation.framework in Frameworks */,
+				A38C81BD15F8FF00001CADEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A38C81A915F8FF00001CADEC = {
+			isa = PBXGroup;
+			children = (
+				A38C81BE15F8FF00001CADEC /* MillenialMedia */,
+				A38C81B715F8FF00001CADEC /* Frameworks */,
+				A38C81B515F8FF00001CADEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A38C81B515F8FF00001CADEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A38C81B415F8FF00001CADEC /* MillenialMedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A38C81B715F8FF00001CADEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A38C81B815F8FF00001CADEC /* UIKit.framework */,
+				A38C81BA15F8FF00001CADEC /* Foundation.framework */,
+				A38C81BC15F8FF00001CADEC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A38C81BE15F8FF00001CADEC /* MillenialMedia */ = {
+			isa = PBXGroup;
+			children = (
+				A38C81C715F8FF00001CADEC /* AppDelegate.h */,
+				A38C81C815F8FF00001CADEC /* AppDelegate.m */,
+				A38C81CA15F8FF00001CADEC /* ViewController.h */,
+				A38C81CB15F8FF00001CADEC /* ViewController.m */,
+				A38C81CD15F8FF00001CADEC /* ViewController.xib */,
+				A38C81BF15F8FF00001CADEC /* Supporting Files */,
+			);
+			path = MillenialMedia;
+			sourceTree = "<group>";
+		};
+		A38C81BF15F8FF00001CADEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A38C81C015F8FF00001CADEC /* MillenialMedia-Info.plist */,
+				A38C81C115F8FF00001CADEC /* InfoPlist.strings */,
+				A38C81C415F8FF00001CADEC /* main.m */,
+				A38C81C615F8FF00001CADEC /* MillenialMedia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38C81B315F8FF00001CADEC /* MillenialMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38C81D215F8FF00001CADEC /* Build configuration list for PBXNativeTarget "MillenialMedia" */;
+			buildPhases = (
+				A38C81B015F8FF00001CADEC /* Sources */,
+				A38C81B115F8FF00001CADEC /* Frameworks */,
+				A38C81B215F8FF00001CADEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MillenialMedia;
+			productName = MillenialMedia;
+			productReference = A38C81B415F8FF00001CADEC /* MillenialMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38C81AB15F8FF00001CADEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Martin Rosas";
+			};
+			buildConfigurationList = A38C81AE15F8FF00001CADEC /* Build configuration list for PBXProject "MillenialMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A38C81A915F8FF00001CADEC;
+			productRefGroup = A38C81B515F8FF00001CADEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38C81B315F8FF00001CADEC /* MillenialMedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38C81B215F8FF00001CADEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38C81C315F8FF00001CADEC /* InfoPlist.strings in Resources */,
+				A38C81CF15F8FF00001CADEC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A38C81B015F8FF00001CADEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38C81C515F8FF00001CADEC /* main.m in Sources */,
+				A38C81C915F8FF00001CADEC /* AppDelegate.m in Sources */,
+				A38C81CC15F8FF00001CADEC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A38C81C115F8FF00001CADEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38C81C215F8FF00001CADEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A38C81CD15F8FF00001CADEC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38C81CE15F8FF00001CADEC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A38C81D015F8FF00001CADEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A38C81D115F8FF00001CADEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38C81D315F8FF00001CADEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MillenialMedia/MillenialMedia-Prefix.pch";
+				INFOPLIST_FILE = "MillenialMedia/MillenialMedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A38C81D415F8FF00001CADEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MillenialMedia/MillenialMedia-Prefix.pch";
+				INFOPLIST_FILE = "MillenialMedia/MillenialMedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38C81AE15F8FF00001CADEC /* Build configuration list for PBXProject "MillenialMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38C81D015F8FF00001CADEC /* Debug */,
+				A38C81D115F8FF00001CADEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38C81D215F8FF00001CADEC /* Build configuration list for PBXNativeTarget "MillenialMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38C81D315F8FF00001CADEC /* Debug */,
+				A38C81D415F8FF00001CADEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A38C81AB15F8FF00001CADEC /* Project object */;
+}
